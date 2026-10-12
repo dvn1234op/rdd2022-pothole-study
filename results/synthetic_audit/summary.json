@@ -1,0 +1,42 @@
+{
+  "n_synthetic_images": 4005,
+  "n_unique_sources": 2856,
+  "status_counts": {
+    "ok": 4005
+  },
+  "n_inserted_boxes": 4005,
+  "inserted_box_classes": {
+    "3": 4005
+  },
+  "source_subsets": {
+    "United_States": 2005,
+    "Czech": 2000
+  },
+  "source_split_v1_images": {
+    "train": 2767,
+    "test": 789,
+    "val": 449
+  },
+  "copied_non_D40_boxes_total": 7821,
+  "in_box_mean_abs_diff_quantiles": {
+    "0.1": 5.44,
+    "0.25": 7.62,
+    "0.5": 15.02,
+    "0.75": 28.88,
+    "0.9": 38.97
+  },
+  "outside_mean_abs_diff_quantiles": {
+    "0.1": 6.98,
+    "0.25": 7.86,
+    "0.5": 9.18,
+    "0.75": 11.27,
+    "0.9": 14.34
+  },
+  "pct_boxes_in_box_change_lt_outside_x2": 59.30087390761548,
+  "pct_boxes_in_box_mad_lt_3": 0.3495630461922597,
+  "pct_boxes_center_above_image_middle": 4.369538077403246,
+  "real_D40_pct_center_above_image_middle": 9.504889975550123,
+  "rel_area_median_synthetic": 0.009918212890625,
+  "rel_area_median_real_D40": 0.005376519097222222,
+  "boxes_per_source_image_max": 4
+}

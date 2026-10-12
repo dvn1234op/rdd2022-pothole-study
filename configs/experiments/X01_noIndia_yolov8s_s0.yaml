@@ -1,0 +1,5 @@
+name: X01_noIndia_yolov8s_s0
+description: "Cross-domain: YOLOv8s trained on split_v1 train minus India; evaluated on full test (India part = held-out domain)"
+model: yolov8s.pt
+data: configs/data/rdd_v1_noIndia.yaml
+seed: 0

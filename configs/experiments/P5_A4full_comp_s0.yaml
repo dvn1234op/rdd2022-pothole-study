@@ -1,0 +1,11 @@
+name: P5_A4full_comp_s0
+description: "Our model (A4) with FULL COCO yolov8s init (every layer with a counterpart: backbone + PAN neck + Detect stems) + domain-class RFS; same init source as P3_yolov8s_comp_s0, which is its fair comparison"
+model: custom:A4
+data: configs/data/rdd_v1_comp.yaml
+seed: 0
+init: checkpoints/pretrained/yolov8s.pt
+init_scope: full      # deviation from the A-ablation protocol (backbone-only); documented in BASELINE_PROTOCOL.md
+overrides:
+  batch: 8            # A0/A4 variants: P2 level does not fit 6 GB at batch 16; nbs 64 keeps effective batch 64
+  epochs: 16          # 33,595 sampled entries x 16 = same optimisation steps as 26,868 x 20
+  close_mosaic: 4

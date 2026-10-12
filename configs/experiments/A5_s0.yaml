@@ -1,0 +1,6 @@
+name: A5_s0
+description: "Ablation A5: full model, dense cross-attention instead of deformable; backbone-only COCO init; seed 0"
+model: custom:A5
+data: configs/data/rdd_v1.yaml
+seed: 0
+init: checkpoints/pretrained/yolov8s.pt

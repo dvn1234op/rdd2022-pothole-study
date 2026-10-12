@@ -1,0 +1,44 @@
+# --- not part of this repository -------------------------------------------------------------------------------------
+# reports / templates / slides
+BTP_Phase_1_Review_2*.pdf
+BTP_Phase_1_Review_2*.docx
+report/
+*.ppt
+*.pptx
+# separate project
+gate_qbank/
+# data, packaged data, model weights (large; see README for how to rebuild)
+data/
+colab/
+checkpoints/
+weights/
+*.pt
+*.pth
+*.zip
+*.npz
+venv/
+__pycache__/
+*.pyc
+runs/
+
+# experiments: keep only the per-run config and training curve
+experiments/**
+!experiments/
+!experiments/*/
+!experiments/*/results.csv
+!experiments/*/resolved_config.yaml
+!experiments/*/args.yaml
+experiments/_*/
+experiments/logs/
+
+# results: keep metrics and analysis, drop raw predictions
+results/**/preds_*.json
+results/OLDCOLAB_codecheck/
+results/*.bak
+
+# local tool state / Windows download markers
+.claude/
+*:Zone.Identifier
+
+# original project write-ups (kept local)
+ALL MD/

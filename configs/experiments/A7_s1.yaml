@@ -1,0 +1,6 @@
+name: A7_s1
+description: "Ablation A7: full model without low-res branch (P2/P3 only); backbone-only COCO init; seed 1"
+model: custom:A7
+data: configs/data/rdd_v1.yaml
+seed: 1
+init: checkpoints/pretrained/yolov8s.pt

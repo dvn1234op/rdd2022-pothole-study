@@ -1,0 +1,5 @@
+name: B01_yolov8s_s0
+description: YOLOv8s (COCO-pretrained, all layers) baseline on split_v1, protocol P20, seed 0
+model: yolov8s.pt
+data: configs/data/rdd_v1.yaml
+seed: 0

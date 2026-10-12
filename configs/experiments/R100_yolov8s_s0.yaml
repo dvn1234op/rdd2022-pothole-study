@@ -1,0 +1,5 @@
+name: R100_yolov8s_s0
+description: "Control: source pixels + synthetic D40 boxes (labels without generated pixels)"
+model: yolov8s.pt
+data: configs/data/rdd_v1_R100.yaml
+seed: 0

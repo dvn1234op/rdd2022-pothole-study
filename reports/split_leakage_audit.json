@@ -1,0 +1,88 @@
+{
+  "near_dup_threshold": {
+    "phash_max": 4,
+    "cos_min": 0.985
+  },
+  "n_edges": 2261,
+  "images_in_multi_image_groups": 2436,
+  "largest_group": 43,
+  "old_split": {
+    "sizes": {
+      "train": 19023,
+      "excluded": 14618,
+      "val": 4744
+    },
+    "val_images_with_neardup_in_train": 231,
+    "cross_pairs": 375,
+    "val_images_with_exact_phash_dup_in_train": 18
+  },
+  "new_split": {
+    "sizes": {
+      "train": 26868,
+      "test": 7678,
+      "val": 3839
+    },
+    "test_images_with_neardup_in_train": 0,
+    "val_images_with_neardup_in_train": 0,
+    "test_images_with_neardup_in_val": 0,
+    "test_images_with_looser_similar_in_train(ph<=8)": 1451,
+    "images_by_subset": {
+      "test": {
+        "China_Drone": 481,
+        "China_MotorBike": 397,
+        "Czech": 565,
+        "India": 1540,
+        "Japan": 2101,
+        "Norway": 1632,
+        "United_States": 962
+      },
+      "train": {
+        "China_Drone": 1680,
+        "China_MotorBike": 1382,
+        "Czech": 1982,
+        "India": 5395,
+        "Japan": 7354,
+        "Norway": 5712,
+        "United_States": 3363
+      },
+      "val": {
+        "China_Drone": 240,
+        "China_MotorBike": 198,
+        "Czech": 282,
+        "India": 771,
+        "Japan": 1051,
+        "Norway": 817,
+        "United_States": 480
+      }
+    },
+    "d40_images_by_subset": {
+      "test": {
+        "China_Drone": 14,
+        "China_MotorBike": 33,
+        "Czech": 30,
+        "India": 306,
+        "Japan": 278,
+        "Norway": 50,
+        "United_States": 24
+      },
+      "train": {
+        "China_Drone": 44,
+        "China_MotorBike": 114,
+        "Czech": 109,
+        "India": 1071,
+        "Japan": 973,
+        "Norway": 180,
+        "United_States": 81
+      },
+      "val": {
+        "China_Drone": 6,
+        "China_MotorBike": 17,
+        "Czech": 15,
+        "India": 153,
+        "Japan": 139,
+        "Norway": 26,
+        "United_States": 11
+      }
+    }
+  }
+}

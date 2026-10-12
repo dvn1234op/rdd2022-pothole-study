@@ -1,0 +1,6 @@
+name: A1_s1
+description: "Ablation A1: multi-resolution representation only (+P2 high-res branch); backbone-only COCO init; seed 1"
+model: custom:A1
+data: configs/data/rdd_v1.yaml
+seed: 1
+init: checkpoints/pretrained/yolov8s.pt

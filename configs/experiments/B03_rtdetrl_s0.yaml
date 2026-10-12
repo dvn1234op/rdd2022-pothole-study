@@ -1,0 +1,7 @@
+name: B03_rtdetrl_s0
+description: "RT-DETR-L baseline, COCO-pretrained, AdamW 1e-4, batch 4 (nbs 64)"
+model: rtdetr-l.pt
+data: configs/data/rdd_v1.yaml
+seed: 0
+overrides:
+  batch: 4            # RT-DETR-L needs ~6-8 GB at batch 8 at 640 px; on this 6 GB WSL GPU that spills into shared memory (cf. aborted A4 batch-16 run). nbs 64 keeps the effective batch identical.

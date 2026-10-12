@@ -1,0 +1,5 @@
+name: S100_yolov8s_s0
+description: "YOLOv8s + 100% (2,767) eligible SD-inpainted synthetic images"
+model: yolov8s.pt
+data: configs/data/rdd_v1_S100.yaml
+seed: 0

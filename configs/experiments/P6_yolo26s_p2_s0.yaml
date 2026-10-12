@@ -1,0 +1,8 @@
+name: P6_yolo26s_p2_s0
+description: "Our multi-resolution idea on the strongest baseline: YOLO26s + P2 (stride-4) detection level, every yolo26s.pt tensor with a counterpart transferred (P2 index remap, training/train.load_p2_shifted); real data, same budget as B04_yolo26s_s0, which is its fair comparison"
+model: yolo26s-p2.yaml
+init: checkpoints/pretrained/yolo26s.pt
+data: configs/data/rdd_v1.yaml
+seed: 0
+overrides:
+  batch: 8            # P2 level does not fit 6 GB at batch 16; nbs 64 keeps effective batch 64

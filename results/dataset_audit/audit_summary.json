@@ -1,0 +1,77 @@
+{
+  "n_images_labeled": 38385,
+  "n_images_with_any_box": 26661,
+  "n_images_with_target_box": 23767,
+  "n_images_without_target_box": 14618,
+  "n_boxes_all_labels": 65712,
+  "n_degenerate_boxes": 1,
+  "n_boxes_target": 55006,
+  "raw_label_counts": {
+    "D00": 26016,
+    "D10": 11830,
+    "D20": 10617,
+    "D40": 6544,
+    "D44": 5057,
+    "D50": 3581,
+    "Repair": 1046,
+    "D43": 793,
+    "D01": 179,
+    "D11": 45,
+    "Block crack": 3,
+    "D0w0": 1
+  },
+  "target_class_counts": {
+    "D00": 26016,
+    "D10": 11830,
+    "D20": 10616,
+    "D40": 6544
+  },
+  "class_imbalance_ratio_max_min": 3.975550122249389,
+  "class_gini": 0.2710158891757263,
+  "images_containing_class": {
+    "D00": 13548,
+    "D10": 7709,
+    "D20": 8412,
+    "D40": 3674
+  },
+  "domain_gini_images": 0.3125030238746534,
+  "domain_imbalance_ratio_images_max_min": 5.314112291350531,
+  "box_level_association": {
+    "chi2": 22444.607982355992,
+    "p": 0.0,
+    "dof": 18,
+    "n": 55006,
+    "cramers_v": 0.3687995246393707,
+    "cramers_v_corrected": 0.3686616620398012,
+    "mutual_information_nats": 0.19893269185227258,
+    "uncertainty_coeff_class_given_domain": 0.158460504978638,
+    "nmi_sqrt": 0.13437314134562994,
+    "js_divergence_to_pooled_bits": {
+      "China_Drone": 0.056605705529480785,
+      "China_MotorBike": 0.01757597929764965,
+      "Czech": 0.016338560920630393,
+      "India": 0.202172005497996,
+      "Japan": 0.0489849887610663,
+      "Norway": 0.08090213549586589,
+      "United_States": 0.06683267335388322
+    }
+  },
+  "image_level_D40_presence_vs_domain": {
+    "chi2": 1970.4656481794023,
+    "p": 0.0,
+    "dof": 6,
+    "n": 38385,
+    "cramers_v": 0.22657065572159238,
+    "cramers_v_corrected": 0.22622838073974363
+  },
+  "size640_overall": {
+    "medium": 24947,
+    "large": 20671,
+    "small": 9388
+  },
+  "size640_D40": {
+    "medium": 3828,
+    "small": 1700,
+    "large": 1016
+  }
+}

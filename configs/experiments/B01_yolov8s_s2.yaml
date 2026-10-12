@@ -1,0 +1,5 @@
+name: B01_yolov8s_s2
+description: "YOLOv8s baseline, seed 2"
+model: yolov8s.pt
+data: configs/data/rdd_v1.yaml
+seed: 2

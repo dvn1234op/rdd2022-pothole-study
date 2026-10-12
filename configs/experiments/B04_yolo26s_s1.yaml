@@ -1,0 +1,5 @@
+name: B04_yolo26s_s1
+description: "YOLO26s baseline (Ultralytics, Jan 2026), COCO-pretrained, real data, no compensation"
+model: yolo26s.pt
+data: configs/data/rdd_v1.yaml
+seed: 1

@@ -1,0 +1,12 @@
+name: G2_P5_A4full_s0
+description: P5_A4full_comp_s0 recipe + 2000 generated pothole images (G2); real data
+  only otherwise (no RFS); epochs scaled 16->19 to keep optimisation steps equal
+model: custom:A4
+data: configs/data/rdd_v1_G2.yaml
+seed: 0
+init: checkpoints/pretrained/yolov8s.pt
+init_scope: full
+overrides:
+  batch: 8
+  epochs: 19
+  close_mosaic: 5

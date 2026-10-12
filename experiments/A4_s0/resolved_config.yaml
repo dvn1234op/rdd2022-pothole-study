@@ -1,0 +1,53 @@
+experiment:
+  name: A4_s0
+  description: 'Ablation A4: full model (A1 + deformable CRA + gates); backbone-only
+    COCO init; seed 0'
+  model: custom:A4
+  data: configs/data/rdd_v1.yaml
+  seed: 0
+  init: checkpoints/pretrained/yolov8s.pt
+  overrides:
+    batch: 8
+train_args:
+  epochs: 20
+  imgsz: 640
+  batch: 8
+  nbs: 64
+  workers: 8
+  device: 0
+  amp: true
+  deterministic: true
+  cache: false
+  patience: 100
+  val: true
+  plots: true
+  mosaic: 1.0
+  close_mosaic: 5
+  mixup: 0.0
+  copy_paste: 0.0
+  fliplr: 0.5
+  flipud: 0.0
+  degrees: 0.0
+  translate: 0.1
+  scale: 0.5
+  shear: 0.0
+  perspective: 0.0
+  hsv_h: 0.015
+  hsv_s: 0.7
+  hsv_v: 0.4
+  erasing: 0.4
+  conf: 0.001
+  iou: 0.7
+  max_det: 300
+  optimizer: SGD
+  lr0: 0.01
+  lrf: 0.01
+  momentum: 0.937
+  weight_decay: 0.0005
+  warmup_epochs: 3.0
+  cos_lr: false
+  data: /home/divon/BTP/configs/data/rdd_v1.yaml
+  seed: 0
+  project: /home/divon/BTP/experiments
+  name: A4_s0
+  exist_ok: true

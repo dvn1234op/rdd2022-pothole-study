@@ -1,0 +1,5 @@
+name: S025_yolov8s_s0
+description: "YOLOv8s + 25% of eligible SD-inpainted synthetic images"
+model: yolov8s.pt
+data: configs/data/rdd_v1_S25.yaml
+seed: 0

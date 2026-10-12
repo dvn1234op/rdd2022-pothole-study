@@ -1,0 +1,6 @@
+name: A0_s2
+description: "Ablation A0: baseline YOLOv8s P3-P5; backbone-only COCO init; seed 2"
+model: custom:A0
+data: configs/data/rdd_v1.yaml
+seed: 2
+init: checkpoints/pretrained/yolov8s.pt

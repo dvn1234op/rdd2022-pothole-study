@@ -1,0 +1,8 @@
+subset,D40_boxes,D40_pct_of_domain_boxes,pct_of_all_D40,images_with_D40,pct_images_with_D40,domain_share_of_all_target_boxes_%,over_representation_factor
+China_Drone,86,2.8,1.31,64,2.67,5.58,0.23
+China_MotorBike,235,5.05,3.59,164,8.3,8.45,0.42
+Czech,197,11.29,3.01,154,5.44,3.17,0.95
+India,3187,46.65,48.7,1530,19.85,12.42,3.92
+Japan,2243,13.62,34.28,1390,13.23,29.94,1.14
+Norway,461,4.11,7.04,256,3.14,20.41,0.34
+United_States,135,1.23,2.06,116,2.41,20.02,0.1

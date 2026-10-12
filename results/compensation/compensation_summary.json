@@ -1,0 +1,127 @@
+{
+  "train_images": 26868,
+  "train_images_by_domain": {
+    "China_Drone": 1680,
+    "China_MotorBike": 1382,
+    "Czech": 1982,
+    "India": 5395,
+    "Japan": 7354,
+    "Norway": 5712,
+    "United_States": 3363
+  },
+  "train_boxes_by_class": {
+    "D00": 18128,
+    "D10": 8297,
+    "D20": 7458,
+    "D40": 4567
+  },
+  "class_ratio_D00_D40": 3.9693453032625357,
+  "train_cramers_v_domain_class": 0.3674991696678817,
+  "candidates": {
+    "none": {
+      "t": null,
+      "exposure_factor": 1.0,
+      "images_repeated_pct": 0.0,
+      "class_share_pct": {
+        "D00": 47.15,
+        "D10": 21.58,
+        "D20": 19.4,
+        "D40": 11.88
+      },
+      "D40_exposure_from_India_pct": 48.91613750821108,
+      "D40_exposure_from_India_Japan_pct": 83.2931902780819,
+      "domain_share_pct": {
+        "China_Drone": 5.61,
+        "China_MotorBike": 8.38,
+        "Czech": 3.12,
+        "India": 12.53,
+        "Japan": 29.81,
+        "Norway": 20.29,
+        "United_States": 20.27
+      },
+      "D40_share_within_domain_pct": {
+        "China_Drone": 2.78,
+        "China_MotorBike": 5.03,
+        "Czech": 11.42,
+        "India": 46.38,
+        "Japan": 13.7,
+        "Norway": 3.95,
+        "United_States": 1.23
+      },
+      "cramers_v_exposure": 0.3674991696678817
+    },
+    "A_class_RFS": {
+      "t": 0.409928869250245,
+      "exposure_factor": 1.2500000000000002,
+      "images_repeated_pct": 61.96590739913652,
+      "class_share_pct": {
+        "D00": 41.71,
+        "D10": 21.52,
+        "D20": 20.0,
+        "D40": 16.77
+      },
+      "D40_exposure_from_India_pct": 48.91613750821109,
+      "D40_exposure_from_India_Japan_pct": 83.29319027808191,
+      "domain_share_pct": {
+        "China_Drone": 5.15,
+        "China_MotorBike": 8.01,
+        "Czech": 3.01,
+        "India": 15.23,
+        "Japan": 30.9,
+        "Norway": 19.11,
+        "United_States": 18.6
+      },
+      "D40_share_within_domain_pct": {
+        "China_Drone": 4.28,
+        "China_MotorBike": 7.43,
+        "Czech": 16.74,
+        "India": 53.86,
+        "Japan": 18.65,
+        "Norway": 5.92,
+        "United_States": 1.9
+      },
+      "cramers_v_exposure": 0.3774581612151305
+    },
+    "C_domain_class_RFS": {
+      "t": 0.06412702945309488,
+      "exposure_factor": 1.2500000000000002,
+      "images_repeated_pct": 41.43590888789638,
+      "class_share_pct": {
+        "D00": 45.74,
+        "D10": 21.3,
+        "D20": 18.81,
+        "D40": 14.15
+      },
+      "D40_exposure_from_India_pct": 37.95022734629796,
+      "D40_exposure_from_India_Japan_pct": 63.64486687885394,
+      "domain_share_pct": {
+        "China_Drone": 7.31,
+        "China_MotorBike": 11.37,
+        "Czech": 5.95,
+        "India": 12.26,
+        "Japan": 21.93,
+        "Norway": 24.11,
+        "United_States": 17.07
+      },
+      "D40_share_within_domain_pct": {
+        "China_Drone": 8.94,
+        "China_MotorBike": 9.64,
+        "Czech": 16.23,
+        "India": 43.8,
+        "Japan": 16.58,
+        "Norway": 6.88,
+        "United_States": 4.51
+      },
+      "cramers_v_exposure": 0.2986817153347399
+    }
+  },
+  "chosen": "C_domain_class_RFS",
+  "built": {
+    "list": "data/splits/train_comp_v1.txt",
+    "n_entries": 33595,
+    "realised_exposure": 1.2503721899657585,
+    "epochs_for_equal_steps": 16,
+    "steps_ratio_vs_baseline": 1.0002977519726068,
+    "close_mosaic": 4
+  }
+}

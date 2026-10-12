@@ -1,0 +1,8 @@
+name: A4_s0
+description: "Ablation A4: full model (A1 + deformable CRA + gates); backbone-only COCO init; seed 0"
+model: custom:A4
+data: configs/data/rdd_v1.yaml
+seed: 0
+init: checkpoints/pretrained/yolov8s.pt
+overrides:
+  batch: 8            # A0/A4 variants: P2 level does not fit 6 GB at batch 16; nbs 64 keeps effective batch 64

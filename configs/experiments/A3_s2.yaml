@@ -1,0 +1,6 @@
+name: A3_s2
+description: "Ablation A3: A1 + adaptive fusion gates; backbone-only COCO init; seed 2"
+model: custom:A3
+data: configs/data/rdd_v1.yaml
+seed: 2
+init: checkpoints/pretrained/yolov8s.pt

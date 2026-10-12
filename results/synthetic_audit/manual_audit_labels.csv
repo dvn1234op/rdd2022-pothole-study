@@ -1,0 +1,61 @@
+sample_idx,category,note
+0,off_road,building/sign; sign removed by inpainting
+1,on_road_no_pothole,
+2,off_road,trees/building
+3,off_road,curb/vegetation
+4,off_road,building; stop sign removed
+5,on_road_no_pothole,faint reddish smudge only
+6,on_road_no_pothole,crosswalk
+7,off_road,sidewalk; sign removed
+8,off_road,billboard
+9,on_road_no_pothole,road text marking altered
+10,off_road,trees; red blob artifact
+11,off_road,sky
+12,off_road,sky
+13,off_road,mostly wall
+14,on_road_no_pothole,
+15,on_road_no_pothole,existing crack texture smoothed
+16,on_road_no_pothole,existing crack smoothed
+17,off_road,tree/sidewalk
+18,on_road_no_pothole,
+19,on_road_no_pothole,markings
+20,off_road,sky
+21,on_road_no_pothole,road edge
+22,on_road_no_pothole,
+23,on_road_no_pothole,
+24,off_road,signboard altered
+25,on_road_no_pothole,existing crack removed
+26,on_road_no_pothole,crosswalk faded
+27,on_road_no_pothole,markings altered
+28,on_road_no_pothole,
+29,on_road_no_pothole,
+30,off_road,vehicle
+31,on_road_no_pothole,
+32,on_road_no_pothole,texture change only
+33,on_road_no_pothole,
+34,on_road_no_pothole,
+35,on_road_no_pothole,
+36,on_road_no_pothole,
+37,on_road_no_pothole,
+38,on_road_no_pothole,
+39,on_road_no_pothole,
+40,on_road_no_pothole,
+41,off_road,trees
+42,on_road_no_pothole,
+43,on_road_no_pothole,kerb
+44,on_road_no_pothole,
+45,off_road,vehicle/building
+46,off_road,sky/building
+47,on_road_no_pothole,
+48,on_road_no_pothole,
+49,on_road_no_pothole,lane marking erased
+50,on_road_no_pothole,
+51,off_road,vegetation/fence
+52,on_road_no_pothole,
+53,off_road,sky/fence
+54,off_road,sky
+55,off_road,tree/pole
+56,on_road_no_pothole,
+57,off_road,vehicle
+58,off_road,grass verge
+59,on_road_no_pothole,

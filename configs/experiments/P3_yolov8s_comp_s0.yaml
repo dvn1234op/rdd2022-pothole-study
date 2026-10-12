@@ -1,0 +1,8 @@
+name: P3_yolov8s_comp_s0
+description: "PILOT EXP-3 candidate: YOLOv8s + domain-class RFS"
+model: yolov8s.pt
+data: configs/data/rdd_v1_comp.yaml
+seed: 0
+overrides:
+  epochs: 16          # 33,595 sampled entries x 16 = same optimisation steps as 26,868 x 20
+  close_mosaic: 4

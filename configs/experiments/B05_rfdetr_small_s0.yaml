@@ -1,0 +1,10 @@
+name: B05_rfdetr_small_s0
+description: "RF-DETR Small (DINOv2, ICLR 2026) at 640 px, own recipe (AdamW 1e-4, EMA, multi-scale), effective batch 16, 20 epochs; real data, no compensation"
+model: rfdetr:RFDETRSmall
+data: data/splits/rdd_v1_coco
+seed: 0
+overrides:
+  resolution: 640
+  epochs: 20
+  batch_size: 4
+  grad_accum_steps: 4

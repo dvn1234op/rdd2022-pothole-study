@@ -1,0 +1,6 @@
+name: A6_s2
+description: "Ablation A6: full model without high-res (P2) branch; backbone-only COCO init; seed 2"
+model: custom:A6
+data: configs/data/rdd_v1.yaml
+seed: 2
+init: checkpoints/pretrained/yolov8s.pt

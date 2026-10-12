@@ -1,0 +1,5 @@
+name: B02_yolo11s_s0
+description: "YOLO11s baseline (stronger YOLO variant), COCO-pretrained"
+model: yolo11s.pt
+data: configs/data/rdd_v1.yaml
+seed: 0

@@ -1,0 +1,9 @@
+name: P4_A0_comp_s0
+description: "PILOT: A0 (same init as A4) + domain-class repeat-factor sampling (completes same-init 2x2)"
+model: custom:A0
+data: configs/data/rdd_v1_comp.yaml
+seed: 0
+init: checkpoints/pretrained/yolov8s.pt
+overrides:
+  epochs: 16          # 33,595 sampled entries x 16 = same optimisation steps as 26,868 x 20
+  close_mosaic: 4
